@@ -1,0 +1,121 @@
+body{
+    padding-bottom: 100px;
+}
+.header{
+    position: relative;
+    padding-bottom: 80px;
+}
+.header-box{
+    height: 410px;
+    background-image: url('../images/banner.png');
+    background-size: 100% 120%;
+    display: flex;
+    justify-content: center;
+}
+.tabs-box{
+    display: flex;
+    padding: 30px;
+    color: #fff;
+    height: 120px;
+    align-items: flex-end;
+}
+.tabs{
+    display: flex;
+    margin-left: 80px;
+}
+.tabs-item{
+    font-size: 16px;
+    padding: 0 30px 5px;
+}
+.tabs-item span{
+    cursor: pointer;
+    padding-bottom: 3px;
+}
+.tabs-item span:hover{
+    border-bottom: 2px solid #1F83FE;
+}
+.address{
+    margin-bottom: 8px;
+}
+.current-tab{
+    border-bottom: 2px solid #1F83FE;
+}
+.rhombus{
+    width: 8px;
+    height: 8px;
+    transform: rotateZ(45deg) skew(6deg, 5deg);
+    background: rgba(255, 255, 255, .5);
+}
+.flayer-top{
+    display: flex;
+    align-items: center;
+    padding: 35px 0 25px 12px;
+}
+.flayer-title{
+    position: absolute;
+    background-color: #1F83FE;
+    width: 305px;
+    height: 150px;
+    left: 50%;
+    bottom: 5px;
+    border-radius: 4px;
+}
+.flayer-bottom{
+    color: rgba(255, 255, 255, .1);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.flayer-title-box{
+    color: #fff;
+    font-size: 16px;
+    padding: 0 10px;
+}
+.divider{
+    height: 1px;
+    background-color: rgba(255, 255, 255, .5);
+    flex-grow: 1;
+}
+.point{
+    display: flex;
+    color: #1F83FE;
+    font-weight: 600;
+    font-size: 15px;
+}
+.point div{
+    margin-right: 6px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-wrapper{
+    width: 960px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    background-image: url('../images/footer.png');
+    background-size: 100% 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.footer-box{
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-right{
+    font-size: 13px;
+    line-height: 26px;
+}
+.footer-left div:first-child{
+    margin-bottom: 8px;
+}

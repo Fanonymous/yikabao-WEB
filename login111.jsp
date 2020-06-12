@@ -15,8 +15,8 @@ if(window.location != window.top.location)
     window.top.location = window.location;
 }
 function refresh(){
-	   document.getElementById("authImg").src='*.images?now='+new Date();
-    }
+	document.getElementById("authImg").src='*.images?now='+new Date();
+}
 </script>
 </head>
 <body>
